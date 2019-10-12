@@ -12,16 +12,16 @@ for(let i=1;i<=level;++i){
     //打印星星
     let star= i * 2 - 1
     for(let j=0;j<star;++j){
-        ddocument.write('*')
+        document.write('*')
     }
     //换行
     document.write("<br>")
 }
 
-let atr = '<table border="1">'
+let str = '<table border="1">'
 for(let i=1;i<10;++i){
-    str += '</tr>'
-    for(var j=i;j<=i;++j){
+    str += '<tr>'
+    for(var j=1;j<=i;++j){
         //：拼接单元格
         str += '<td>' + j + '*' + i + '=' + ( j * i ) + '</td>'
     }

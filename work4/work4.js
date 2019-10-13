@@ -10,7 +10,7 @@ for(let i=1;i<=level;++i){
         document.write('&nbsp;');
     }
     //打印星星
-    let star = i * 2 - 1
+    let star= i * 2 - 1
     for(let j=0;j<star;++j){
         document.write('*')
     }
@@ -22,7 +22,7 @@ let str = '<table border="1">'
 for(let i=1;i<10;++i){
     str += '<tr>'
     for(var j=1;j<=i;++j){
-        //；拼接单元格
+        //：拼接单元格
         str += '<td>' + j + '*' + i + '=' + ( j * i ) + '</td>'
     }
     str += '</tr>'

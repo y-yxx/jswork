@@ -37,11 +37,11 @@ for(var i = 0;i<inputs.length - 1;++i){
                     break;
                     case 'tel':
                         reg = /^1[34578]\d{9}$/;
-                        msg = {'success': '手机号输入正确','erroe':tips};
+                        msg = {'success': '手机号输入正确','error':tips};
                         break;
                         case 'email':
                                 reg = /^(\w+(\_|\-|\.)*)+@(\w+(\-)?)+(\.\w{2,})+$/;
-                                msg = {'success': '邮箱输入正确','erroe':tips};
+                                msg = {'success': '邮箱输入正确','error':tips};
                                 break;
     
 
